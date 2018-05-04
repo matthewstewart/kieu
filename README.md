@@ -1,5 +1,7 @@
 # Kieu
-An Open Source Salon Application.
+In Development. An Open Source Salon Web Application.  
+The current state of development can be viewed at [https://kieusalon.herokuapp.com/](https://kieusalon.herokuapp.com/).
+
 
 ## Install
 ```

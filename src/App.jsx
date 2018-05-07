@@ -57,6 +57,9 @@ class App extends Component {
       <div className="viewport-container">
         <NavBar 
           {...this.state}
+          isLoggedIn={ this.state.isLoggedIn }
+          currentUser={ this.state.currentUser }
+          onUserLogout={ this.logoutCurrentUser }                    
         />
         <Routes
           {...this.state}

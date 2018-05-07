@@ -3,6 +3,7 @@ import Auth from './modules/Auth';
 import Routes from './Routes';
 import moment from 'moment';
 import axios from 'axios';
+import NavBar from './components/NavBar';
 
 class App extends Component {
 
@@ -54,6 +55,9 @@ class App extends Component {
   render() {
     return (
       <div className="viewport-container">
+        <NavBar 
+          {...this.state}
+        />
         <Routes
           {...this.state}
           loginCurrentUser={this.loginCurrentUser}
